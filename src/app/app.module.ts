@@ -9,8 +9,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './main/home/home.component';
 import { ProductsComponent } from './main/products/products.component';
+import { BrandComponent } from './main/brand/brand.component';
+import { SubCategoriesComponent } from './main/sub-categories/sub-categories.component';
+import { CategoryComponent } from './main/category/category.component';
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent, HomeComponent, ProductsComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent, HomeComponent, ProductsComponent, BrandComponent, SubCategoriesComponent, CategoryComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
