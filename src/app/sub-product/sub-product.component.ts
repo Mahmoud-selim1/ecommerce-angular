@@ -22,7 +22,7 @@ export class SubProductComponent {
           if (i.subcategory[0]._id == this.id) {
             this.all.push(i);
           } else {
-            this.msg = 'there is no products yet';
+            this.msg = 'there is no products';
           }
         }
         // if(d.data)
