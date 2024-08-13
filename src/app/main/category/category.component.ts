@@ -12,7 +12,6 @@ export class CategoryComponent {
     this.http
       .get('https://ecommerce.routemisr.com/api/v1/categories')
       .subscribe((data: any) => {
-        console.log(data.data);
         this.allData = data.data;
       });
   }

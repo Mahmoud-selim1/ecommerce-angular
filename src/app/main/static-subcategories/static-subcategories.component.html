@@ -2,10 +2,12 @@
 <div class="container my-5">
   <div class="row">
     <div class="col-md-6 col-lg-4 col-12 mb-3" *ngFor="let i of allData">
-      <a class="card" routerLink="/static-sub/{{ i._id }}">
-        <img src="{{ i.image }}" class="card-img-top" alt="..." />
+      <a class="card" routerLink="/sub-product/{{ i._id }}">
         <div class="card-body">
           <h5 class="card-title">{{ i.name }}</h5>
+          <hr class="my-3" />
+          <p class="card-text">ID : {{ i._id }}</p>
+          <p class="card-text">{{ i.category }}</p>
         </div>
       </a>
     </div>
